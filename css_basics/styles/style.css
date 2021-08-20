@@ -1,0 +1,30 @@
+
+/* Making p tag red */
+/* Modify mulitple property values */
+p {
+  color: red;
+  width: 500px;
+  border: 1px solid black;
+}
+
+/* Selecting multiple elements */
+p, li, h1 {
+  color: red;
+}
+
+/* Font and text */
+html {
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
