@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HyperLink</title>
+</head>
+<body>
+  <!-- Anatomy of a link -->
+  <!-- Adding supporting information with the title attribute -->
+  <p>I'm creating a link to <a href="https://www.mozilla.org/en-US/"
+    title="The best place to find more information about Mozilla's mission and how to contribute">the Mozilla homepage</a>.</p>
+
+  <!-- Block level links -->
+  <a href="https://www.mozilla.org/en-US/">
+    <img src="mozilla-image.png" alt="mozilla logo that links to the mozilla homepage" />
+  </a>
+
+  <!-- Same directory -->
+  <p>Want to contact a specific staff member?
+    Find details on our <a href="contacts.html">contacts page</a>
+  </p>
+
+  <!-- Moving down into subdirectories -->
+  <p>Visit my <a href="projects/index.html">project homepage</a>.</p>
+
+  <!-- Moving back up into parent directories -->
+  <p>A link to my <a href="../pdfs/project-brief.pdf">project brief</a>.</p>
+
+  <!-- Document fragments -->
+  <h2 id="Mailing_address">Mailing address</h2>
+
+  <p>Want to write us a letter? Use our <a href="contacts.html#Mailing_address">mailing address</a>.</p>
+
+  <!-- Link best practices -->
+  <!-- Use clear link wording -->
+  <p><a href="https://firefox.com/">Download Firefox</a></p>
+
+  <!-- Link to non-HTML resources -- leave clear signposts -->
+  <p><a href="https://www.example.com/large-report.pdf">
+    Download the sales report (PDF, 10MB)
+  </a></p>
+
+  <p><a href="https://www.example.com/video-stream/" target="_blank">
+    Watch the video (stream opens in separate tab, HD quality)
+  </a></p>
+
+  <p><a href="https://www.example.com/car-game">
+    Play the car game (requires Flash)
+  </a></p>
+
+  <!-- Use the download attribute when linking to a download -->
+  <a href="https://download.mozilla.org/?product=firefox-latest-sl&os=win64&lang=en-US"
+    download="firefox-latest-64bit-installer.exe">
+    Download Latest Firefox for Windows (64-bit) (English, US)
+  </a>
+</body>
+</html>
