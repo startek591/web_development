@@ -1,0 +1,32 @@
+/* Cascade - means that the order of CSS rules matter */
+h1 {
+  color: red;
+}
+
+/* last one in the source order wins */
+h1 {
+  color: blue;
+}
+
+/* class - gives the its rule a higher specificity */
+
+.main-heading {
+  color: red;
+}
+
+/* id has a higher specificity over class */
+
+/* !important has a higher speciificity over id */
+
+/* Controlling inheritance */
+/* inherit */
+/* Sets the property value applied to a selected element to be the same as parent */
+
+/* initial */
+/* Sets the property value applied to a selected element to the initial value */
+
+/* unset */
+/* reset the property to its natural value */
+
+/* revert */
+/* revert the property to the browser's default styling */
