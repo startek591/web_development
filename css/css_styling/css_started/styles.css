@@ -1,0 +1,65 @@
+/* Adding CSS to our document */
+
+/* Styling HTML elements */
+h1 {
+  color: red;
+}
+
+p {
+  color: green;
+}
+
+/* target multiple selectors at once */
+p, li {
+  color: green;
+}
+
+/* Changing the default behavior of elements */
+li {
+  list-style-type: none;
+}
+
+/* target the class */
+.special {
+  color: orange;
+  font-weight: bold;
+}
+
+/* target multiple elements with the same class name */
+/* li.special,
+span.special {
+  color: orange;
+  font-weight: bold;
+} */
+
+/* Styling things based on their location in a document */
+/* descendant combinator */
+li em {
+  color: rebeccapurple;
+}
+
+/* adjacent sibling */
+/* styling a tag when it comes directly after another tag */
+h1 + p {
+  font-size: 200%;
+}
+
+/* Styling things based on state */
+a:link {
+  color: pink;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Combining selectors and combinators */
+/* body h1 + p .special {
+  color: yellow;
+  background-color: black;
+  padding: 5px;
+} */
