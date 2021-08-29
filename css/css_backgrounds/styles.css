@@ -1,0 +1,19 @@
+/* Styling backgrounds in CSS */
+/* background-color: */
+/* background-image: url(); */
+/* backtround-repeat: no-repeat, repeat-x, repeat-y, repeat */
+/*  -- cover - make the image large to covers the area (retaining its aspect ratio) */
+/*  -- contain - make the image right size to fit inside the box.*/
+/* background-position: (0,0); */
+/* background-image: linear-gradient(
+    -- degree
+    -- circle */
+
+/* background-attachment - 
+    -- scroll - causes the element's background to scroll when the page is scolled
+    -- fixed - causes the element's background to be fixed and not scroll
+    -- local - fixes the background to the element it is set on, scoll when it has too */
+
+/* borders - 1px solid black */
+/* border-radius - ... */
+    
