@@ -1,0 +1,23 @@
+/* Selectors */
+/* Type selector - h1 {} */
+
+/* Universal selector - * {} */
+
+/* Class selector - .box { } */
+
+/* id selector - #unique { } */
+
+/* Atrribute selector - a[title] {} */
+
+/* pseudo-class - p:first-child {} */
+
+/* pseudo-element selectors - p::first-line {} */
+
+/* descendant combinator - article p */
+
+/* child combinator - article > p */
+
+/* Adjacent sibling combinator - h1 + p */
+
+/* General sibling combinator - h1 ~ p */
+
