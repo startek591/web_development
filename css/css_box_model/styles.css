@@ -1,0 +1,36 @@
+/* Block boxes */
+/* break onto a new line */
+/* extend in the inline direction to fill the space available in it container */
+/* fill up 100% of the space available */
+/* width and height properties are respected */
+/* Padding, margin, and border will cause other elements to be pushed away from
+ the box */
+
+ /* examples - h1, p */
+
+/* Inline boxes */
+/* will not break onto a new line */
+/* width and height properties will not apply */
+/* Vertical padding, margins, and borders will apply but will not cause other inline
+   to move away from the box. */
+/* Horizonatal padding, margins, and borders will apply and will cause other inline boxes
+   to move away from the box. */
+
+/* examples - a, span, em, strong */
+
+
+/* Aside: Inner and outer display types */
+/* display: flex - the outer disply type is block and inner display type is flex */
+/* display: inline-flex - creating an inline box around some flex items. */
+/* display: inline - inline flex container and paragraphs all run together on one
+   line  */
+
+
+/* box-sizing - set all default settings */
+
+/* margin - is an invisible space around your box. pushes other elements away from the box */
+/* padding - sits between the border and the content area. */
+/* border - is drawn between the margin and the padding of a box.  */
+
+/* display: inline-block - does a subset of block things */
+/* but break onto a new line */
